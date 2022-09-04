@@ -1,5 +1,5 @@
-AUTHOR = 'SB'
-SITENAME = 'Justice'
+AUTHOR = 'SBTech'
+SITENAME = 'Court'
 SITEURL = ''
 
 PATH = 'content'
@@ -14,6 +14,7 @@ MENUITEMS = (
     ('Home', '/'),
     ('About', 'https://home.sb-hrms.com/pages/about.html'),
     ('Resource', 'https://home.sb-hrms.com/pages/resource.html'),
+    ('Reference', 'https://github.com/SB-Country/Court/tree/main/Site/content/posts'),
 )
 
 # Feed generation is usually not desired when developing
@@ -30,8 +31,12 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Email', 'mailto:info@sb-hrbp.com'),
+          ('LinkedIn', 'https://www.linkedin.com/in/sunshubin-japan'),
+          ('twitter', 'https://twitter.com/sunshubin_japan'),
+          ('GitHub', 'https://github.com/SSb-Publish'),
+          ('youtube', 'https://www.youtube.com/channel/UC5g7f-rbfHW00-5pxdzrDsA'),
+         )
 
 DEFAULT_PAGINATION = 6
 
